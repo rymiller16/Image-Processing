@@ -1,0 +1,15 @@
+{
+    "Input files": ["me_2.tiff", "sponebob.tiff"],
+    "Correspondences":
+    [
+	[["me_2.tiff", 
+	 [[415, 615],[739, 605],[600, 303],[586, 1085],[273,650],[888,647]]
+	],
+	["spongebob.tiff", 
+	 [[527,  275],[656, 277],[580, 74],[582,  677],[280,393],[857,402]]
+	]]
+    ],
+    "Output file":"moprh_out",
+    "Number ouputs": 10
+}
+
