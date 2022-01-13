@@ -294,14 +294,6 @@ while(1):
         break
     r, loc, x, y, corr_domains = phase_correlation(anchor_image, image_matrix[ref_idx])
     
-    if cell_image == 1 and counter_negs == len(col)-1:
-        print("Hello")
-        x = 399
-        y = 0
-        x_trans = 1275
-        y_trans = 1275
-        loc = "BotR"
-    
     anchor_image = image_matrix[ref_idx]
     
     if loc == "TopL":   
